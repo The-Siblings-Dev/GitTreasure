@@ -1,30 +1,23 @@
-# GitTreasure
 # Git
 
 Git is a distributed version-control system for tracking changes in source code during software development. Below are all the must know git commands from begining to advance level.
 
-[![Build Status](https://img.shields.io/badge/Git-A%20Stupid%20Content%20Tracker-red)](https://git-scm.com/docs/git)
-
 ## Git Setup
 To take benefits of Git you first need to intall it.
 
-#### Installing on Linux
-```sh
-Fedora - $ sudo dnf install git-all
-or
-Ubuntu - $ sudo apt install git-all
-```
-
-[All Other options](https://git-scm.com/download/linux)
-
 #### Installing on Mac
+
+There are several options for installing Git on macOS and below is one with homebrew. 
+
+Install homebrew if you don't already have it, below is the command
 ```sh
-Homebrew - $ brew install git
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+and then install git with below homebrew command
+```sh
+    $ brew install git
 ```
 [All Other options](https://git-scm.com/download/mac)
-
-#### Installing on Windows
-[Download from Git wesite.](https://git-scm.com/download/win)
 
 ### User Configuration
 ```sh
